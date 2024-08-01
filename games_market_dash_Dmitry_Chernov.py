@@ -17,7 +17,7 @@ df = df0.dropna().query("2000 <= Year_of_Release <= 2022")
 
 # convert age rating from str to int using map
 rating_map = {
-    "E": 0,
+    "E": 6,
     "E10+": 10,
     "T": 13,
     "M": 17,
