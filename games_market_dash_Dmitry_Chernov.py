@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 
+
 df0 = pd.read_csv("games.csv")
 # print(df0.head(3))
 # print(df0.info())
