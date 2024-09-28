@@ -37,6 +37,7 @@ df["Year_of_Release"] = df["Year_of_Release"].astype(int)
 # DASHBOARD
 # the app
 app = dash.Dash(__name__)
+server = app.server
 
 # dashboard layout
 app.layout = html.Div(
