@@ -65,7 +65,7 @@ app.layout = html.Div(
                             id="platform-filter",
                             options=[
                                 {"label": i, "value": i}
-                                for i in df["Platform"].unique()
+                                for i in sorted(df["Platform"].unique())
                             ],
                             multi=True,
                             placeholder="Select platforms",
@@ -82,7 +82,8 @@ app.layout = html.Div(
                         dcc.Dropdown(
                             id="genre-filter",
                             options=[
-                                {"label": i, "value": i} for i in df["Genre"].unique()
+                                {"label": i, "value": i}
+                                for i in sorted(df["Genre"].unique())
                             ],
                             multi=True,
                             placeholder="Select genres",
