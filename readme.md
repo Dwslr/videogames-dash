@@ -1,3 +1,4 @@
+![dashboard screenshot](screenshot_dash_vg.png)
 
 # Dash Games Market Dashboard
 
